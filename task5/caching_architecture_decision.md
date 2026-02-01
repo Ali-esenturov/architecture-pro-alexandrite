@@ -119,7 +119,6 @@ sequenceDiagram
 
   MESAPI->>MQ: Publish OrderStatusChanged(order_id, new_status, updated_at)
   MESAPI-->>CRM: 200 OK
-  end
 ```
 
 Сущности кеширования: MES API, Redis, MES DB.
